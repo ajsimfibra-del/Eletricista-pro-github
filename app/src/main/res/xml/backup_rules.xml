@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Incluir arquivos de preferências -->
+    <include domain="sharedpref" path="." />
+    <!-- Incluir banco de dados -->
+    <include domain="database" path="." />
+    <!-- Incluir arquivos -->
+    <include domain="file" path="." />
+</full-backup-content>

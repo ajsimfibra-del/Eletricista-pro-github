@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_calculadoras">
+
+    <fragment
+        android:id="@+id/nav_calculadoras"
+        android:name="com.eletricistapro.ui.CalculadorasFragment"
+        android:label="@string/menu_calculadoras"
+        tools:layout="@layout/fragment_calculadoras" />
+
+    <fragment
+        android:id="@+id/nav_orcamento"
+        android:name="com.eletricistapro.ui.OrcamentoFragment"
+        android:label="@string/menu_orcamento"
+        tools:layout="@layout/fragment_orcamento" />
+
+    <fragment
+        android:id="@+id/nav_curso"
+        android:name="com.eletricistapro.ui.CursoFragment"
+        android:label="@string/menu_curso"
+        tools:layout="@layout/fragment_curso" />
+
+    <fragment
+        android:id="@+id/nav_prova"
+        android:name="com.eletricistapro.ui.ProvaFragment"
+        android:label="@string/menu_prova"
+        tools:layout="@layout/fragment_prova" />
+
+</navigation>

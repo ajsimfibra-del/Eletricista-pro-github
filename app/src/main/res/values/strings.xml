@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eletricista Pro – Nível 1</string>
+
+    <!-- Menu Principal -->
+    <string name="menu_calculadoras">Calculadoras</string>
+    <string name="menu_orcamento">Orçamento</string>
+    <string name="menu_curso">Curso</string>
+    <string name="menu_prova">Prova</string>
+
+    <!-- Calculadoras Elétricas -->
+    <string name="calc_consumo_kwh">Cálculo de Consumo (kWh)</string>
+    <string name="calc_disjuntor">Cálculo de Disjuntor</string>
+    <string name="calc_bitola">Cálculo de Bitola do Cabo</string>
+
+    <string name="label_potencia">Potência (W)</string>
+    <string name="label_horas_dia">Horas por Dia</string>
+    <string name="label_dias_mes">Dias por Mês</string>
+    <string name="label_tensao">Tensão (V)</string>
+    <string name="label_corrente">Corrente (A)</string>
+    <string name="label_comprimento">Comprimento do Cabo (m)</string>
+    <string name="label_queda_tensao">Queda de Tensão Máxima (%)</string>
+
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_limpar">Limpar</string>
+    <string name="btn_compartilhar">Compartilhar</string>
+    <string name="btn_proximo">Próximo</string>
+    <string name="btn_anterior">Anterior</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_finalizar">Finalizar</string>
+
+    <string name="resultado">Resultado</string>
+    <string name="consumo_mensal">Consumo Mensal: %s kWh</string>
+    <string name="disjuntor_recomendado">Disjuntor Recomendado: %s A</string>
+    <string name="bitola_recomendada">Bitola Recomendada: %s mm²</string>
+
+    <!-- Gerador de Orçamento -->
+    <string name="orcamento_titulo">Gerador de Orçamento</string>
+    <string name="label_cliente">Nome do Cliente</string>
+    <string name="label_servico">Tipo de Serviço</string>
+    <string name="label_pontos">Quantidade de Pontos</string>
+    <string name="label_mao_obra">Valor da Mão de Obra (R$)</string>
+    <string name="label_material">Valor do Material (R$)</string>
+    <string name="label_total">Total: R$ %s</string>
+    <string name="compartilhar_whatsapp">Compartilhar no WhatsApp</string>
+
+    <!-- Curso -->
+    <string name="curso_titulo">Curso Eletricista Nível 1</string>
+    <string name="modulo_seguranca">Segurança Básica (NR10)</string>
+    <string name="modulo_conceitos">Conceitos Elétricos</string>
+    <string name="modulo_tensao">110V vs 220V</string>
+    <string name="modulo_pratica">Prática: Instalação de Tomada</string>
+
+    <!-- Prova -->
+    <string name="prova_titulo">Prova - Eletricista Nível 1</string>
+    <string name="prova_pergunta">Pergunta %d de 10</string>
+    <string name="prova_resultado">Resultado Final</string>
+    <string name="prova_aprovado">Parabéns! Você foi aprovado!</string>
+    <string name="prova_reprovado">Você não foi aprovado. Estude mais e tente novamente!</string>
+    <string name="prova_pontuacao">Pontuação: %d%%</string>
+
+    <!-- Mensagens -->
+    <string name="erro_campos_vazios">Preencha todos os campos obrigatórios</string>
+    <string name="erro_valores_invalidos">Valores inválidos. Verifique os dados</string>
+    <string name="sucesso">Operação realizada com sucesso</string>
+</resources>
